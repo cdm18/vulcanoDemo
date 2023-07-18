@@ -1,0 +1,307 @@
+.box {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.box .agenda-wrapper {
+  border: 0px none;
+  height: 1024px;
+  position: relative;
+  width: 1440px;
+}
+
+.box .agenda {
+  background-color: #0b2346;
+  height: 1024px;
+  left: 0;
+  top: 0;
+  width: 1440px;
+}
+
+.box .text-wrapper {
+  color: #ffffff;
+  font-family: "Poppins-ExtraBold", Helvetica;
+  font-size: 40px;
+  font-weight: 800;
+  height: 60px;
+  left: 633px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 39px;
+}
+
+.box .div {
+  color: #ffffff;
+  font-family: "Poppins-Medium", Helvetica;
+  font-size: 32px;
+  font-weight: 500;
+  height: 48px;
+  left: 117px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 105px;
+}
+
+.box .group {
+  height: 72px;
+  left: 144px;
+  position: absolute;
+  top: 213px;
+  width: 666px;
+}
+
+.box .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Poppins-ExtraBold", Helvetica;
+  font-size: 48px;
+  font-weight: 800;
+  height: 72px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+}
+
+.box .overlap {
+  height: 55px;
+  left: 78px;
+  position: absolute;
+  top: 6px;
+  width: 58px;
+}
+
+.box .text-wrapper-3 {
+  color: #ffffff;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 30px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+}
+
+.box .text-wrapper-4 {
+  color: #ffffff;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 30px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  opacity: 0.4;
+  position: absolute;
+  top: 25px;
+}
+
+.box .text-wrapper-5 {
+  color: #ffffff;
+  font-family: "Poppins-ExtraBold", Helvetica;
+  font-size: 40px;
+  font-weight: 800;
+  height: 60px;
+  left: 149px;
+  letter-spacing: 0;
+  line-height: normal;
+  opacity: 0.4;
+  position: absolute;
+  top: 9px;
+}
+
+.box .overlap-group {
+  border-radius: 50px;
+  height: 58px;
+  left: 482px;
+  position: absolute;
+  top: 10px;
+  width: 174px;
+}
+
+.box .rectangle {
+  background-color: #d9d9d9;
+  border-radius: 50px;
+  height: 58px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 174px;
+}
+
+.box .text-wrapper-6 {
+  color: #000000;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  height: 36px;
+  left: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 11px;
+}
+
+.box .arrow {
+  height: 22px;
+  left: 109px;
+  position: absolute;
+  top: 18px;
+  width: 38px;
+}
+
+.box .group-2 {
+  height: 72px;
+  left: 144px;
+  position: absolute;
+  top: 326px;
+  width: 672px;
+}
+
+.box .overlap-2 {
+  height: 55px;
+  left: 78px;
+  position: absolute;
+  top: 6px;
+  width: 44px;
+}
+
+.box .overlap-3 {
+  border-radius: 50px;
+  height: 58px;
+  left: 488px;
+  position: absolute;
+  top: 7px;
+  width: 174px;
+}
+
+.box .group-3 {
+  height: 72px;
+  left: 139px;
+  position: absolute;
+  top: 439px;
+  width: 677px;
+}
+
+.box .overlap-4 {
+  background-color: #d9d9d9;
+  border-radius: 50px;
+  height: 58px;
+  left: 493px;
+  position: absolute;
+  top: 11px;
+  width: 174px;
+}
+
+.box .group-4 {
+  height: 72px;
+  left: 144px;
+  position: absolute;
+  top: 552px;
+  width: 672px;
+}
+
+.box .overlap-5 {
+  background-color: #d9d9d9;
+  border-radius: 50px;
+  height: 58px;
+  left: 488px;
+  position: absolute;
+  top: 9px;
+  width: 174px;
+}
+
+.box .group-5 {
+  height: 72px;
+  left: 144px;
+  position: absolute;
+  top: 665px;
+  width: 672px;
+}
+
+.box .overlap-6 {
+  background-color: #d9d9d9;
+  border-radius: 50px;
+  height: 58px;
+  left: 488px;
+  position: absolute;
+  top: 0;
+  width: 174px;
+}
+
+.box .overlap-7 {
+  background-color: #d9d9d9;
+  border-radius: 50px;
+  height: 58px;
+  left: 632px;
+  position: absolute;
+  top: 778px;
+  width: 174px;
+}
+
+.box .text-wrapper-7 {
+  color: #000000;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  height: 36px;
+  left: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 10px;
+}
+
+.box .group-6 {
+  height: 72px;
+  left: 139px;
+  position: absolute;
+  top: 778px;
+  width: 317px;
+}
+
+.box .frame {
+  background-color: #d9d9d9;
+  height: 755px;
+  left: 928px;
+  position: absolute;
+  top: 152px;
+  width: 461px;
+}
+
+.box .image {
+  height: 755px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 461px;
+}
+
+/* Cambio de color al pasar el mouse */
+.box .group-2 .rectangle:hover,
+.box .group-3 .overlap-4:hover,
+.box .group-4 .overlap-5:hover,
+.box .group-5 .overlap-6:hover,
+.box .group-6 .overlap-7:hover {
+  background-color: #999999;
+}
+
+/* Cambio de color al hacer clic */
+.box .group-2 .rectangle:active,
+.box .group-3 .overlap-4:active,
+.box .group-4 .overlap-5:active,
+.box .group-5 .overlap-6:active,
+.box .group-6 .overlap-7:active {
+  background-color: #666666;
+}

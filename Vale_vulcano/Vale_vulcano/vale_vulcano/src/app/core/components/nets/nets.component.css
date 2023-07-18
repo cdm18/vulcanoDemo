@@ -1,0 +1,260 @@
+.box {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.box .frame-wrapper {
+  border: 0px none;
+  height: 1024px;
+  position: relative;
+  width: 1440px;
+}
+
+.box .frame {
+  background-color: #bf3a2b;
+  height: 1024px;
+  left: 0;
+  top: 0;
+  width: 1440px;
+}
+
+.box .text-wrapper {
+  color: #ffffff;
+  font-family: "Poppins-ExtraBold", Helvetica;
+  font-size: 40px;
+  font-weight: 800;
+  height: 60px;
+  left: 548px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 36px;
+}
+
+.box .red {
+  background-color: #ffffff;
+  border-radius: 50px;
+  height: 725px;
+  left: 218px;
+  overflow: hidden;
+  position: absolute;
+  top: 149px;
+  width: 216px;
+}
+
+.box .overlap-group {
+  background-color: #d9d9d9;
+  border-radius: 77px;
+  height: 154px;
+  left: 31px;
+  position: relative;
+  top: 286px;
+  width: 154px;
+}
+
+.box .image {
+  height: 75px;
+  left: 40px;
+  object-fit: cover;
+  position: absolute;
+  top: 39px;
+  width: 75px;
+}
+
+.box .overlap-wrapper {
+  background-color: #ffffff;
+  border-radius: 50px;
+  height: 725px;
+  left: 1006px;
+  overflow: hidden;
+  position: absolute;
+  top: 149px;
+  width: 216px;
+}
+
+.box .div-wrapper {
+  height: 725px;
+  left: 743px;
+  position: absolute;
+  top: 149px;
+  width: 216px;
+}
+
+.box .overlap-group-wrapper {
+  background-color: #ffffff;
+  border-radius: 50px;
+  height: 725px;
+  overflow: hidden;
+}
+
+.box .div {
+  background-color: #ffffff;
+  border-radius: 50px;
+  height: 725px;
+  left: 480px;
+  overflow: hidden;
+  position: absolute;
+  top: 149px;
+  width: 216px;
+}
+
+
+
+
+
+.my-box {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.my-box .desktop-wrapper {
+  border: 0px none;
+  height: 669px;
+  position: relative;
+  width: 1440px;
+}
+
+.my-box .desktop {
+  background-color: #e74d3c;
+  height: 669px;
+  left: 0;
+  top: 0;
+  width: 1440px;
+}
+
+.my-box .my-text-wrapper {
+  color: #000000;
+  font-family: "Poppins-Medium", Helvetica;
+  font-size: 32px;
+  font-weight: 500;
+  left: 598px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 52px;
+}
+
+.my-box .my-heading {
+  color: #0faebf;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  left: 452px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 130px;
+}
+
+.my-box .my-frame {
+  background-color: #e4caca;
+  border-radius: 50px;
+  height: 392px;
+  left: 60px;
+  overflow: hidden;
+  position: absolute;
+  top: 212px;
+  width: 282px;
+}
+
+.my-box .my-ellipse {
+  background-color: #ffffff;
+  border-radius: 75px;
+  height: 150px;
+  left: 66px;
+  position: absolute;
+  top: 51px;
+  width: 150px;
+}
+
+.my-box .my-div {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 67px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 215px;
+  white-space: nowrap;
+}
+
+.my-box .my-text-wrapper-2 {
+  color: #000000;
+  font-family: "Inter-Thin", Helvetica;
+  font-size: 11px;
+  font-weight: 100;
+  left: 97px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 253px;
+  white-space: nowrap;
+}
+
+.my-box .my-image {
+  height: 50px;
+  left: 42px;
+  object-fit: cover;
+  position: absolute;
+  top: 318px;
+  width: 50px;
+}
+
+.my-box .my-img {
+  height: 50px;
+  left: 115px;
+  object-fit: cover;
+  position: absolute;
+  top: 318px;
+  width: 50px;
+}
+
+.my-box .my-image-2 {
+  height: 50px;
+  left: 191px;
+  object-fit: cover;
+  position: absolute;
+  top: 318px;
+  width: 50px;
+}
+
+.my-box .my-frame-2 {
+  background-color: #e4caca;
+  border-radius: 50px;
+  height: 392px;
+  left: 394px;
+  overflow: hidden;
+  position: absolute;
+  top: 212px;
+  width: 282px;
+}
+
+.my-box .my-frame-3 {
+  background-color: #e4caca;
+  border-radius: 50px;
+  height: 392px;
+  left: 729px;
+  overflow: hidden;
+  position: absolute;
+  top: 212px;
+  width: 282px;
+}
+
+.my-box .my-frame-4 {
+  background-color: #e4caca;
+  border-radius: 50px;
+  height: 392px;
+  left: 1064px;
+  overflow: hidden;
+  position: absolute;
+  top: 212px;
+  width: 282px;
+}

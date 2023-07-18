@@ -1,0 +1,69 @@
+.entorno {
+  display: flex;
+  height: 800px;
+  background: #2B3D4F;
+  overflow: hidden;
+  font-family: "Poppins-Bold", Helvetica;
+  color: #ffffff;
+  width: 95%;
+  padding: 0 50px;
+  flex-direction: column;
+
+
+  /* Ajusta el espacio de padding a los lados según sea necesario */
+}
+
+.div1 {
+  display: felx;
+  width: 100%;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.contenedor-texto {
+  display: flex;
+  width: 95%;
+  text-align: justify;
+  font-size: 25px;
+  line-height: 48px;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 48px;
+  width: 100%;
+
+
+}
+
+.titulo2 {
+  display: flex;
+  justify-content: start;
+  text-align: center;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 48px;
+  width: 100%;
+  padding: 0;
+  height: 50px;
+}
+
+.imagen-container {
+  margin-left: 50px; /* Ajusta el margen izquierdo según sea necesario */
+  margin-top: 20px; /* Mueve la imagen hacia abajo 20px */
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.img-container img {
+  height: 100px;
+}

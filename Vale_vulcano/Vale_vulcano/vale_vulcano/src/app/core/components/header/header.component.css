@@ -1,0 +1,65 @@
+header{
+  background-color:#2B3D4F ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-family: "Poppins-Bold", Helvetica;
+  color: #F2F2F2;
+  tituto{
+    height: 50px;
+  }
+
+}
+
+.titulo {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 60px;
+  font-style: normal;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.router-link-active {
+  text-decoration: none; /* Quitar el subrayado */
+  color: inherit; /* Utilizar el color heredado */
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 50px;
+}
+
+nav ul li a {
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+
+.link {
+
+  background: #E74D3C;
+  border-radius: 45px;
+  font-style: normal;
+  font-family: "Poppins-Bold", Helvetica;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+

@@ -1,0 +1,141 @@
+.agregar{
+  z-index: 9999; /*  z-index sea mayor que los otros elementos */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #5056bf;;
+  border: 1px solid #ccc;
+  width: 40%;
+  height: 80%;
+}
+
+.overlap-wrapper{
+
+  background-color: #ccc;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  margin-top: 60px;
+  border-radius: 20px;
+}
+
+.formulario{
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  border-radius: 20px;
+  position: absolute;
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  margin-left: 20px;
+
+
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+input, textarea {
+  display: inline-block;
+  width: 250px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+button {
+
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+
+}
+
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 14px;
+  width: 59%;
+}
+
+/* Estilo cuando se coloca el cursor sobre el select */
+select:hover {
+  border-color: #888;
+}
+
+/* Estilo cuando el select está enfocado */
+select:focus {
+  outline: none;
+  border-color: #555;
+  box-shadow: 0 0 5px #555;
+}
+
+input[type="date"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 14px;
+  width: 55%;
+}
+
+/* Estilo cuando se coloca el cursor sobre el input */
+input[type="date"]:hover {
+  border-color: #888;
+}
+
+/* Estilo cuando el input está enfocado */
+input[type="date"]:focus {
+  outline: none;
+  border-color: #555;
+  box-shadow: 0 0 5px #555;
+}
+
+input[type="file"] {
+  display: block;
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+  color: #555;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+input[type="file"]:hover {
+  background-color: #eaeaea;
+}
+
+input[type="file"]:focus {
+  outline: none;
+  border-color: #6c63ff;
+  box-shadow: 0 0 0 3px rgba(108, 99, 255, 0.1);
+}
+
+.form-group-2{
+  width: 45%;
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  margin-left: 20px;
+
+}
+
+
+.boton-agregar{
+  background-color:#024873;
+}
+
+.boton-cancelar{
+  background-color: #49BF3F;
+}
+
