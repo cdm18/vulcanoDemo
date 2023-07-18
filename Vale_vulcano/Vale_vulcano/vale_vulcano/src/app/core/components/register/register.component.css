@@ -1,5 +1,6 @@
 /* Estilos generales */
 body {
+
   font-family: Arial, sans-serif;
   background-color: #f8f8f8;
   margin: 0;
@@ -28,15 +29,18 @@ form {
 
 /* Estilos para etiquetas y campos de formulario */
 .form-label {
+  margin-left: 20px;
   font-weight: bold;
 }
 
 .form-control {
   padding: 10px;
+  margin-left: 20px;
   margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 3px;
   transition: border-color 0.3s;
+
 }
 
 .form-control:focus {
@@ -47,6 +51,8 @@ form {
 /* Estilo para el botón de envío */
 input[type="submit"] {
   background-color: #6d9feb;
+  margin-left: 20px;
+  margin-bottom: 20px;
   color: #fff;
   font-weight: bold;
   border: none;
